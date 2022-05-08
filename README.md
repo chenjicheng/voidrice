@@ -9,6 +9,7 @@ These are the dotfiles deployed by [CARBS](https://carbs.run/) and as seen on
 	- vim/nvim (text editor)
 	- bash (shell)
 	- dolphin (file manager)
+	- lf (file manager)
 	- mpd/ncmpcpp (music)
 	- sxiv (image/gif viewer)
 	- mpv (video player)
