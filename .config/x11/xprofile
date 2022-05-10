@@ -14,7 +14,7 @@ for program in $autostart; do
 	pidof -s "$program" || "$program" &
 done >/dev/null 2>&1
 
-sleep 0.1 && dwmblocks &
+sleep 1 && dwmblocks &
 
 # Ensure that xrdb has finished running before moving on to start the WM/DE.
 [ -n "$xrdbpid" ] && wait "$xrdbpid"
