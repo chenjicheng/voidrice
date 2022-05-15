@@ -10,7 +10,7 @@ export PATH="$(find ~/.local/bin -type d -printf %p:)$PATH"
 
 # Default programs:
 export EDITOR="nvim"
-export TERMINAL="st"
+export TERMINAL="alacritty"
 export BROWSER="firefox"
 
 # ~/ Clean-up:
